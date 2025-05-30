@@ -91,3 +91,14 @@ Current SMB password:
 [!] Password is expired, trying to bind with a null session.
 [*] Password was changed successfully.
 ```
+
+### ➜ Netexec new Module
+
+```sh
+nxc smb 10.10.90.243 -u 'users.txt' -p '' --no-bruteforce --continue-on-success
+```
+
+![alt text](../assets/images/statuspass8.png)
+
+https://www.netexec.wiki/smb-protocol/change-user-password
+
